@@ -5,6 +5,7 @@ export default function Home() {
     <div className="hero">
       <div className="card bg-dark text-white border-0">
       <img src="https://www.weliahealth.org/wp-content/uploads/2021/03/fruitsveggies-1620x600-1-1200x600.jpg"
+      alt="image"
       style={{height:"500px"}}>
       </img>
         <div className="card-img-overlay d-flex flex-column justify-content-center">

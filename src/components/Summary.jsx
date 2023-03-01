@@ -39,22 +39,6 @@ const Summary = () => {
       </>
     );
   };
-  const buttons = () => {
-    return (
-      <>
-        <div className="container">
-          <div className="row">
-            <NavLink
-              to="/summary"
-              className="btn btn-outline-dark mb-5 mx-auto"
-            >
-              Proceed to Checkout
-            </NavLink>
-          </div>
-        </div>
-      </>
-    );
-  };
   return (
     <div>
       {state.length === 0 && emptyCart()}
