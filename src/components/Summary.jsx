@@ -30,7 +30,7 @@ const Summary = () => {
             <div className="col-md-4 justify-content-center">
               <h3>{product.title}</h3>
               <p className="lead fw-bold">
-                {product.qty} X {product.price} = <span style={{margin:"4px"}}>Rs</span>
+                {product.qty} X {product.price} = <span style={{ margin: "4px" }}>Rs</span>
                 {product.qty * product.price}
               </p>
             </div>
@@ -39,11 +39,13 @@ const Summary = () => {
       </>
     );
   };
-  return (
-    <div>
-      {state.length === 0 && emptyCart()}
-      {state.length !== 0 && state.map(cartItems)}
-    </div>
-  );
+
+};
+return (
+  <div>
+    {state.length === 0 && emptyCart()}
+    {state.length !== 0 && state.map(cartItems)}
+  </div>
+);
 };
 export default Summary;
